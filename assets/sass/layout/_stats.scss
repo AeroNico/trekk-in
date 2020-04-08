@@ -1,0 +1,10 @@
+.stats{
+    &__img{
+        opacity: 0;
+        animation-name:opacidad;
+        animation-duration:1.5s;
+        animation-iteration-count:infinite;
+        animation-direction:alternate;
+        animation-timing-function:ease-in-out;
+    }
+}

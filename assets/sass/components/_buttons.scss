@@ -1,0 +1,11 @@
+.btn-trk{
+    background-color:$ballblue;
+    border-radius:0;
+    color:$white;
+    padding-left:20px;
+    padding-right:20px;
+    &:hover {
+        background-color:$bluelagoon;
+        color:$white;
+    }
+}

@@ -1,0 +1,23 @@
+//Fix responsive cards (Size SM)
+
+@media (min-width: 576px) {
+
+    .card-group .card {
+    flex:0 0 100%;
+    }
+} 
+
+
+@media (min-width: 992px) {
+
+    .card-group .card {
+    flex:1 0 0%;
+    }
+
+    .w-lg-90 {
+        width:90%
+    }
+} 
+
+
+

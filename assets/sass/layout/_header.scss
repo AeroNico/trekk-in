@@ -1,0 +1,14 @@
+.header {
+    &__img{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .header {
+        &__img{
+            margin-top: -300px;
+        }
+    }
+}

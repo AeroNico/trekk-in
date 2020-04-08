@@ -1,0 +1,9 @@
+.navbar-light .navbar-nav .nav-link {
+    color:$raisingblack;
+}
+
+.nav{
+    &__btn{
+        animation: atention 1s .5s infinite ease-in-out
+    }
+}

@@ -1,0 +1,15 @@
+.pricing {
+    background-image: url(../img/bg-price.svg);
+    background-position: top left;
+    background-size: cover;
+    padding-top:100px;
+
+    @media (min-width: 768px) {
+        padding-top:15%;
+    }
+}
+
+hr {
+    border-color:$raisingblack;
+}
+
