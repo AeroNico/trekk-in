@@ -1,9 +1,33 @@
-.footer {
+.footer{
     background-color: $raisingblack;
-    & a {
+    &__list{
+        list-style: none;
+        padding:0;
+    }
+    &__itemlist{
+        float:left;
+        text-align: center;
+    }
+    &__link{
+        color:$gray;
+        &:hover{
+            color:$platinum;
+        }
+    }
+    &__copyright {
         color:$gray;
     }
-    & span {
-        color:$gray;
+}
+
+@media (min-width: 1200px) {
+    .footer{
+        &__list{
+            grid-column-start:2;
+            grid-column-end: 7;
+        }
+        &__copyright {
+            grid-column-start: 9;
+            grid-column-end: 11;
+        }
     }
 }

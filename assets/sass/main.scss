@@ -1,12 +1,9 @@
 @import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/placeholders';
+
 
 @import 'vendors/bootstrap/bootstrap';
-@import 'vendors/jquery-ui';
 
-@import 'base/reset';
+
 @import 'base/typography';
 @import 'base/base';
 
@@ -15,8 +12,6 @@
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'layout/sidebar';
-@import 'layout/forms';
 @import 'layout/stats';
 @import 'layout/pricing';
 
@@ -24,11 +19,3 @@
 
 @import 'components/buttons';
 @import 'components/cards';
-@import 'components/cover';
-@import 'components/dropdown';
-
-@import 'pages/home';
-@import 'pages/contact';
-
-@import 'themes/theme';
-@import 'themes/admin';
